@@ -11,7 +11,7 @@ is a free, open project that provides browsers and mobile
   s.author             = { "linhong.liu" => "liulinhong@feinno.com" }
   s.source = { :git => "https://github.com/liulinhong/Ctest.git", :tag => s.version }
   s.platform     = :ios, "8.0"
-  s.ios.vendored_frameworks = "Ctest.framework"
+  s.vendored_frameworks = "Ctest.framework"
   s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$\"(PODS_ROOT)/**\"" }
 
 
